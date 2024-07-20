@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family:"inter" ;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*-------------Layout-------------------*/
+
+body{
+    height:100vh;
+    display:grid;
+    place-items:center;
+    grid-template-rows: 95% 1fr;
+    
+}
+
+main{
+    max-width: 384px;
+    width: 100%;
+    min-width: 327px;
+    padding:40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+a ,span, img{
+    display: block;
+
+}
+a{
+    width: 100%;
+    margin-bottom: 16px;
+    padding:13px 0;
+    text-align: center;
+    border-radius: 8px;
+    
+  
+
+}
+
+img{
+    max-width: 88px;
+    margin: 0 auto;
+    border-radius: 100px;
+    margin-bottom: 24px;
+}
+h1{
+    margin-bottom: 4px;
+}
+
+span{
+    margin-bottom: 24px;
+}
+/*-------------------Font & Color-------------------------------*/
+body{
+   background-color:black;
+
+   filter: drop-shadow(0px 4px black);;
+}
+
+main{
+    font-family:"inter" ;
+    background-color:#1F1F1F ;
+    color:white;
+    
+    
+}
+a{
+    font-weight: 600;
+    background-color:#333333;
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    background-color:hsl(75, 94%, 57%) ;
+    color:#333333;
+}
+
+span:first-of-type{
+    color:hsl(75, 94%, 57%);
+}
