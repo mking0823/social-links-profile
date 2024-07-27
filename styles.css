@@ -28,11 +28,11 @@ main{
     text-align: center;
 }
 
-a ,span, img{
+ main a ,span, img{
     display: block;
 
 }
-a{
+main  a{
     width: 100%;
     margin-bottom: 16px;
     padding:13px 0;
@@ -70,7 +70,7 @@ main{
     
     
 }
-a{
+main a{
     font-weight: 600;
     background-color:#333333;
     text-decoration: none;
@@ -78,11 +78,11 @@ a{
     
 }
 
-a:visited{
+main a:visited{
     color:white;
 }
 
-a:hover{
+main a:hover{
     background-color:hsl(75, 94%, 57%) ;
     color:#333333;
 }
